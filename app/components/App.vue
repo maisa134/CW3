@@ -21,13 +21,12 @@ export default {
     components: {ProductList, Checkout},
     data () {
         return {
-            cart: [],
         };
     },
     method: {
      addToCart(product) {
             this.cart.push(product);
-            alert("Added to cart: " + product.topics);
+            alert("Added to cart: " + product.name);
         },
         removeFromCart(lesson) {
             for (let i=0; i<this.cart.length; i++) {

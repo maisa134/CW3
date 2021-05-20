@@ -14,7 +14,9 @@ export default {
     data() {
        return {
             products: [
-                { topic: "English", cost: 5, spaces: 10, location: "NW1" }
+                { topic: "English", cost: 5, spaces: 10, location: "NW1" },
+                { topic: "French", cost: 12, spaces: 2 ,location: "N12" },
+                { topic: "Dance", cost: 20, spaces: 12, location: "WC6"  }
             ],
        };
     },

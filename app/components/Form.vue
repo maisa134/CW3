@@ -22,7 +22,7 @@ export default {
     props: ['cart'],
     methods: {
         onItemTap(event) {
-            this.$emit("removeProduct", event.item);
+        this.$emit("removeProduct", event.item);
         },
         submitOrder() {
             alert('An order is placed by ' + this.name + " at " + this.number)
