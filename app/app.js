@@ -1,6 +1,6 @@
 import Vue from 'nativescript-vue';
 
-import HelloWorld from './components/HelloWorld';
+import App from './components/App.vue';
 
 // Uncommment the following to see NativeScript-Vue output logs
 // Vue.config.silent = false;
@@ -9,10 +9,10 @@ new Vue({
 
     template: `
         <Frame>
-            <HelloWorld />
+            <App />
         </Frame>`,
 
     components: {
-        HelloWorld
+        App
     }
 }).$start();

@@ -1,7 +1,7 @@
 <template>
     <Page>
         <ActionBar title="Home"/>
-        <Label text="Welcome" class="h3">
+        <Label text="Welcome" class="h3"/>
         <TabView androidTabsPosition='bottom'>
             <TabViewItem title="ProductList" class="h2">
                 <ProductList @addProduct="addToCart" />
