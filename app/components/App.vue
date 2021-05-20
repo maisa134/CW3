@@ -15,7 +15,7 @@
 
 <script>
 import ProductList from './ProductList.vue'
-import Checkout from './Form.vue'
+import Checkout from './Checkout.vue'
 
 export default {
     components: {ProductList, Checkout},
